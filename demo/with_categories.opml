@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+	<head>
+		<title>Simple OPML Parser Demo</title>
+	</head>
+	<body>
+		<outline text="Reuters News">
+			<outline type="rss" text="Reuters: Technology News" xmlUrl="http://feeds.reuters.com/reuters/technologyNews"/>
+			<outline type="rss" text="Reuters: World News" xmlUrl="http://feeds.reuters.com/Reuters/worldNews"/>
+			<outline type="rss" text="Reuters: Top News" xmlUrl="http://feeds.reuters.com/reuters/topNews"/>
+		</outline>
+		<outline text="CNN">
+			<outline type="rss" text="CNN.com - World" xmlUrl="http://rss.cnn.com/rss/edition_world.rss"/>
+			<outline type="rss" text="CNN.com - Entertainment" xmlUrl="http://rss.cnn.com/rss/edition_entertainment.rss"/>
+			<outline type="rss" text="CNN.com - Europe" xmlUrl="http://rss.cnn.com/rss/edition_europe.rss"/>
+		</outline>
+	</body>
+</opml>
