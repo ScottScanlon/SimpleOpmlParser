@@ -22,6 +22,7 @@ require_once('SimpleOpmlParser.php');
 
 $sop = new SimpleOpmlParser();
 $sop->setOpmlUploadName("opmlFile"); //must be in html input name
+$sop->setUploadDir("upload"); //optional, default: upload, need full rights (777) for the dir
 $opml = $sop->init();
             
 if ($opml == true) {
